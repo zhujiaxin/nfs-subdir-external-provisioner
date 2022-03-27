@@ -12,4 +12,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM linux/arm64 k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+FROM --platform=linux/arm64 k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
